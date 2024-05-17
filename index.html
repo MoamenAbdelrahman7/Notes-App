@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Notes App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>Notes App</h1>
+        <div class="container">
+            <textarea name="note" id="note-box" rows="12" cols="60" placeholder="Wrtie your Note ..."></textarea>
+           <div>
+            <label for="color-palette" id="color-label">Color: </label>
+            <input type="color" id="color-palette">
+            <label for="font-size" id="size-label">Size: </label>
+            <input type="number" id="font-size" min="1" max="80" maxlength="2">
+            <button type="button" id="add-note" >Add</button>
+
+           </div>
+
+        </div>
+        <!-- <div class="notes"><button class="remove-note">X</button>
+           <p> Hello, this is a test note</p>
+        </div> -->
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
